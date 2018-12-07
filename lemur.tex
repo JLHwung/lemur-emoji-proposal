@@ -83,12 +83,44 @@ No compatibility factors.
 \subsection{Expected usage level}
 \subsubsection{Frequency}
 
-Google Trends (Figure \ref{fig:google-trend}) shows a consistent search interest in ``lemur" in the past year, though it is significantly lower than the one in ``elephant" or ``monkey".
+The Google search results (Figure \ref{fig:google-search}) show that the number of ``lemur animal'' search result, reaching 33 million, is 5\% of the ``elephant animal''. Considering that Lemur only lives in Madagascar while Elephant lives continentally, this result supports great search frequency of Lemur.
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{img/google-search-lemur-animal.png}
+  \includegraphics[width=\linewidth]{img/google-search-elephant-animal.png}
+  \caption{Google Search results over two terms: ``lemur" and ``elephant".}
+  \label{fig:google-search}
+\end{figure}
+
+The Bing search results (Figure \ref{fig:bing-search}), unfortunately it can not provide us a comparison since Bing hide the number of results on term ``elephant animal'', though ``lemur'' has 100,000 results.
 
 \begin{figure}[h]
-  \includegraphics[width=\linewidth]{img/google-trend.png}
-  \caption{Google Trends show interest over time on three terms: ``lemur", ``elephant" and ``monkey".}
-  \label{fig:google-trend}
+  \includegraphics[width=\linewidth]{img/bing-lemur-animal.png}
+  \includegraphics[width=\linewidth]{img/bing-elephant-animal.png}
+  \caption{Bing Search results over two terms: ``lemur animal" and ``elephant animal", of which the latter's number is unavailable from webpage.}
+  \label{fig:bing-search}
+\end{figure}
+
+The Youtube search results (Figure \ref{fig:youtube-search}) of both two term has been hidden from the webpage. However, I manage to dig out the estimated number of results from the API response(follow the blue arrow annotation in the screenshot). The number of ``lemur animal'' search result is almost 10\% of ``elephant animal''.
+
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{img/youtube-lemur-animal.png}
+  \includegraphics[width=\linewidth]{img/youtube-elephant-animal.png}
+  \caption{Youtube Search results over two terms: ``lemur" and ``elephant". Here ``lemur'' has 481,458 results while the ``elephant'' has 5,319,009 results.}
+  \label{fig:youtube-search}
+\end{figure}
+
+Google Trends (Figure \ref{fig:google-trend-web-search} for Web Search and Figure \ref{fig:google-trend-image-search} for Image Search) shows a consistent search interest in ``lemur" in the past year, though it is significantly lower than the one in ``elephant".
+
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{img/google-trend-web-search.png}
+  \caption{Google Trends shows web search interest over time on two terms: ``lemur" and ``elephant".}
+  \label{fig:google-trend-web-search}
+\end{figure}
+
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{img/google-trend-image-search.png}
+  \caption{Google Trends shows image search interest over time on two terms: ``lemur" and ``elephant".}
+  \label{fig:google-trend-image-search}
 \end{figure}
 
 Google Ngram Charts (Figure \ref{fig:google-ngram}) shows the word ``lemur" is of relatively lower occurrence in printed books compared with ``elephant" and ``monkey".

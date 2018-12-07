@@ -1,8 +1,8 @@
 /__latexindent_temp.tex
 /.vscode
 /creationdate.lua
-/lemur.aux
+*.aux
 /lemur.log
-/lemur.out
-/lemur.synctex.gz
+*.out
+*.synctex.gz
 /pdfa.xmpi
